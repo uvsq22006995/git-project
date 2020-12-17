@@ -93,24 +93,4 @@ def egal():
     result = 0
 
 
-label = Label(main,text="0")
-label.place(x=10,y=10)
-Bouton = Button(main,text=" 1 ",command=num1).place(x=10,y=110)
-Bouton = Button(main,text="  2  ",command=num2).place(x=70,y=110)
-Bouton = Button(main,text="  3  ",command=num3).place(x=130,y=110)
-Bouton = Button(main,text="  4  ",command=num4).place(x=10,y=150)
-Bouton = Button(main,text="  5  ",command=num5).place(x=70,y=150)
-Bouton = Button(main,text="  6  ",command=num6).place(x=130,y=150)
-Bouton = Button(main,text="  7  ",command=num7).place(x=10,y=190)
-Bouton = Button(main,text="  8  ",command=num8).place(x=70,y=190)
-Bouton = Button(main,text="  9  ",command=num9).place(x=130,y=190)
-Bouton = Button(main,text=" . ",command=point).place(x=10,y=230)
-Bouton = Button(main,text=" 0 ",command=zero).place(x=70,y=230)
 
-Boutou = Button(main,text=" C ",command=clear).place(x=190,y=110)
-Bouton = Button(main,text=" + ",command=add).place(x=190,y=150)
-Bouton = Button(main,text="  -  ",command=sous).place(x=190,y=190)
-Bouton = Button(main,text="  x  ",command=fois).place(x=250,y=110)
-Bouton = Button(main,text="  /  ",command=div).place(x=250,y=150)
-Bouton = Button(main,text=" = ",command=egal).place(x=250,y=190)
-main.mainloop()
